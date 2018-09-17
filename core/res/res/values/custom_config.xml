@@ -91,4 +91,6 @@
         <item>screenrecord</item>
     </string-array>
 
+    <!-- Whether device can force navbar disabling -->
+    <bool name="config_canForceDisableNavigationBar">false</bool>
 </resources>
