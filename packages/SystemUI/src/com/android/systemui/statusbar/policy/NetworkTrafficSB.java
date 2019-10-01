@@ -378,7 +378,7 @@ public class NetworkTrafficSB extends TextView implements StatusIconDisplayable 
     }
 
     @Override
-    public void setVisibleState(int state, boolean mIsEnabled) {
+    public void setVisibleState(int state, boolean animate) {
         if (state == mVisibleState) {
             return;
         }
@@ -398,7 +398,7 @@ public class NetworkTrafficSB extends TextView implements StatusIconDisplayable 
     }
 
     private void updateVisibility() {
-        if (!ArrowUtils.hasNotch(mContext) && mIsEnabled &&
+        if (!CustomUtils.hasNotch(mContext) && mIsEnabled &&
                 mTrafficVisible && mSystemIconVisible) {
             setVisibility(View.VISIBLE);
         } else {
