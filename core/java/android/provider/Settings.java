@@ -4482,6 +4482,12 @@ public final class Settings {
         /** @hide */
         public static final Validator BUTTON_BACKLIGHT_TIMEOUT_VALIDATOR = NON_NEGATIVE_INTEGER_VALIDATOR;
 
+        /*
+         * Whether the user has already accepted MediaProjection permission for the built-in screenrecorder
+         * @hide
+         */
+        public static final String MEDIAPROJECTION_SYSUI_OK = "mediaprojection_sysui_ok";
+
         /**
          * Whether the button backlight is only lit when pressed (and not when screen is touched)
          * The value is boolean (1 or 0).
