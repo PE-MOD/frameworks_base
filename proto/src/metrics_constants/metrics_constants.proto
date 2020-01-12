@@ -7433,5 +7433,8 @@ message MetricsEvent {
     // CustomSettings constant
     CUSTOM_SETTINGS = 1999;
 
+    // Pixel Goodies
+    PIXELGOODIES = 420;
+
   }
 }
