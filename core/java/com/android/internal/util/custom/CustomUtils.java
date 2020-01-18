@@ -40,6 +40,10 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 import com.android.internal.statusbar.IStatusBarService;
 
+/**
+ * Some custom utilities
+ */
+public class CustomUtils {
 
 // Check if device has a notch
     public static boolean hasNotch(Context context) {
