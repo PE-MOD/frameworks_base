@@ -284,7 +284,7 @@ public class FODCircleView extends ImageView implements ConfigurationListener {
     public void dispatchPress() {
         IFingerprintInscreen daemon = getFingerprintInScreenDaemon();
         try {
-            daemon.onPress(mIsDreaming ? 1 :0);
+            daemon.onPress();
         } catch (RemoteException e) {
             // do nothing
         }
