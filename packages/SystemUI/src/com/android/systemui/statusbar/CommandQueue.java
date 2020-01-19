@@ -118,7 +118,7 @@ public class CommandQueue extends IStatusBar.Stub implements CallbackController<
     private static final int MSG_RECENTS_ANIMATION_STATE_CHANGED = 47 << MSG_SHIFT;
     private static final int MSG_SHOW_IN_DISPLAY_FINGERPRINT_VIEW = 48 << MSG_SHIFT;
     private static final int MSG_HIDE_IN_DISPLAY_FINGERPRINT_VIEW = 49 << MSG_SHIFT;
-    private static final int MSG_TOGGLE_CAMERA_FLASH           = 48 << MSG_SHIFT;
+    private static final int MSG_TOGGLE_CAMERA_FLASH           = 50 << MSG_SHIFT;
     private static final int MSG_PARTIAL_SCREENSHOT_ACTIVE           = 51 << MSG_SHIFT;
 
     public static final int FLAG_EXCLUDE_NONE = 0;

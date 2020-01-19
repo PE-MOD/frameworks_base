@@ -18,6 +18,7 @@ import com.android.systemui.statusbar.policy.KeyguardMonitor;
 import java.util.function.Consumer;
 
 public class SystemUIGoogleFactory extends SystemUIFactory {
+
     @Override
     public ScrimController createScrimController(ScrimView scrimBehind, ScrimView scrimInFront,
             LockscreenWallpaper lockscreenWallpaper,

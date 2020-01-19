@@ -309,7 +309,7 @@ public class FODCircleView extends ImageView implements ConfigurationListener {
         setDim(true);
         updateAlpha();
 
-        setImageDrawable(R.drawable.fod_icon_pressed);
+        setImageDrawable(null);
         invalidate();
     }
 
