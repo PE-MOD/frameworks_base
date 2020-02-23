@@ -37,4 +37,7 @@
     <!-- screenrecord -->
     <dimen name="screenrecord_dot_size">48dp</dimen>
 
+    <!-- Size of the FOD animation -->
+    <dimen name="fod_animation_size">280dp</dimen>
+
 </resources>
